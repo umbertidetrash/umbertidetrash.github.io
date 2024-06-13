@@ -1,7 +1,7 @@
 /* style.css */
 
 .bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "BebasNeue", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -29,7 +29,7 @@ header {
 }
 
 header .logo {
-    font-family: 'Bebas+Neue';
+    font-family: 'BebasNeue';
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -47,7 +47,7 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-family: 'Bebas+Neue';
+    font-family: 'BebasNeue';
     font-size: 1rem;
 }
 
@@ -78,7 +78,7 @@ header nav ul li a {
 }
 
 .landing h1 {
-    font-family: 'Bebas+Neue';
+    font-family: 'BebasNeue';
     font-size: 3rem;
     margin-bottom: 1rem;
 }
