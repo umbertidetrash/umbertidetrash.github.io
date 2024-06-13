@@ -24,12 +24,16 @@ header {
 header .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    align-items: center;
+    text-align: center;
 }
 
 header nav ul {
     list-style: none;
     display: flex;
     gap: 1.5rem;
+    align-items: center;
+    text-align: center;
 }
 
 header nav ul li {
