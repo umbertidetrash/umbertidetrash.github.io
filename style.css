@@ -29,7 +29,7 @@ header .logo {
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 header nav ul li {
@@ -39,6 +39,7 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-family: 'Bebas+Neue';
     font-size: 1rem;
 }
 
@@ -69,6 +70,7 @@ header nav ul li a {
 }
 
 .landing h1 {
+    font-family: 'Bebas+Neue';
     font-size: 3rem;
     margin-bottom: 1rem;
 }
