@@ -30,9 +30,12 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     // Sample images for gallery
-    /*const galleryImages = [
+    const galleryImages = [
+        'images/carimmondizia.png',
+        'images/carimmondizia.png',
+        'images/carimmondizia.png',
         'images/carimmondizia.png'
-    ];*/
+    ];
 
     const galleryGrid = document.querySelector('.gallery-grid');
     galleryImages.forEach(src => {
