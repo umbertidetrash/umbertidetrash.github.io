@@ -1,11 +1,4 @@
 /* style.css */
-@font-face {
-    font-family: 'Pricedown';
-    font-style: normal;
-    font-weight: normal;
-    color: white;
-    src: local('pricedown'), url('https://github.com/infin1tyy/pricedown-font-web/blob/master/pricedown.otf') format('opentype');
-}
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -29,7 +22,7 @@ header {
 }
 
 header .logo {
-    font-family: 'Bebas Neue';
+    font-family: 'Pricedown';
     font-size: 4rem;
     font-weight: bold;
     display: flex;
