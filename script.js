@@ -31,12 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Sample images for gallery
     const galleryImages = [
-        'https://source.unsplash.com/random/300x300?trash',
-        'https://source.unsplash.com/random/301x301?trash',
-        'https://source.unsplash.com/random/302x302?trash',
-        'https://source.unsplash.com/random/303x303?trash',
-        'https://source.unsplash.com/random/304x304?trash',
-        'https://source.unsplash.com/random/305x305?trash'
+        'images/carimmondizia.png'
     ];
 
     const galleryGrid = document.querySelector('.gallery-grid');
