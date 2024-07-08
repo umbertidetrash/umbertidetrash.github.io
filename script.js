@@ -45,3 +45,25 @@ document.addEventListener('DOMContentLoaded', function() {
         galleryGrid.appendChild(img);
     });
 });
+
+// Get all navigation links
+const navLinks = document.querySelectorAll('nav ul li a');
+
+// Add an event listener to each link
+navLinks.forEach((link) => {
+  link.addEventListener('click', (event) => {
+    // Prevent default link behavior
+    event.preventDefault();
+
+    // Get the target section ID from the link's href attribute
+    const targetId = link.getAttribute('href');
+
+    // Get the target section element
+    const targetSection = document.querySelector(targetId);
+
+    // Scroll to the target section
+    targetSection.scrollIntoView({
+      behavior: 'smooth',
+    });
+  });
+});
