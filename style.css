@@ -246,15 +246,13 @@ footer {
 @media only screen and (max-width: 768px) {
     /* Resize logo on small screens */
     header .logo img {
-        max-width: 50px; /* set a maximum width */
-        width: 100%; /* allow the image to scale down */
+         width: 90vw;
     }
 }
 
 @media only screen and (max-width: 480px) {
     /* Resize logo on very small screens */
     header .logo img {
-        max-width: 30px; /* set a maximum width */
-        width: 100%; /* allow the image to scale down */
+         width: 90vw;
     }
 }
