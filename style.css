@@ -137,6 +137,17 @@ footer {
     margin-top: 2rem;
 }
 
+#about {
+  scroll-margin-top: 100px; /* or any other value you prefer */
+}
+
+#gallery {
+  scroll-margin-top: 100px; /* or any other value you prefer */
+}
+
+#contact {
+  scroll-margin-top: 100px; /* or any other value you prefer */
+}
 /* Media queries for smartphone screens */
 
 @media only screen and (max-width: 768px) {
