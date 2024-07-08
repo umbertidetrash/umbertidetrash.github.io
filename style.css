@@ -21,13 +21,9 @@ header {
 }
 
 header .logo {
-    font-family: 'Pricedown';
-    font-size: 4rem;
-    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 header nav ul {
